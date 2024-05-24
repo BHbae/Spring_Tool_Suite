@@ -14,7 +14,7 @@ public class MultiThreadClient {
 		
 		try {
 			
-			Socket socket = new Socket("192.168.0.28", 5001);
+			Socket socket = new Socket("192.168.0.48", 5000);
 			System.out.println("*** connected to the Server ***");
 			
 			PrintWriter socketWriter = new PrintWriter(socket.getOutputStream(), true);
